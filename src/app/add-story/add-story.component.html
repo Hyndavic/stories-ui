@@ -1,0 +1,26 @@
+
+<div class="container">
+  <div style="display: flex; justify-content: left; padding-bottom: 10px">
+    <button class="btn btn-warning" (click)="onMenuItem('/')"><i class="fa fa-arrow-left"></i> Back/Home</button>
+  </div>
+  <h3 class="title">Please Add Story/Blog Information</h3>
+    <form  [formGroup]="storyForm" (ngSubmit)="onSubmit()">
+      <div class="mb-3">
+        <label for="title" class="form-label">Title</label>
+        <input type="text" formControlName = "title" class="form-control" id="title" >
+<!--        <span *ngIf = "storyForm?.get('title')?.errors && storyForm?.get('title')?.errors?.required">field is required</span>-->
+      </div>
+      <div class="mb-3">
+        <label for="description" class="form-label">Description</label>
+        <textarea  formControlName = "description"  class="form-control" id="description"></textarea>
+<!--        <span *ngIf = "storyForm.get('description') && storyForm.get('description').errors['required']">field is required</span>-->
+
+      </div>
+      <div class="mb-3">
+        <label for="formFile" class="form-label">Default file input example</label>
+        <input class="form-control" type="file" id="formFile" (change)="onFileChanged($event)">
+<!--        <span *ngIf = "storyForm.get('image') && storyForm.get('image')?.errors['required']">field is required</span>-->
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>

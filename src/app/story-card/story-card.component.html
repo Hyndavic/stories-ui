@@ -1,0 +1,28 @@
+<div class="card">
+  <img class="card-img-to image-card" [src]="hostUrl + story?.imagepath">
+  <div class="card-body">
+    <h5 class="card-title">{{story?.title}}</h5>
+    <p class="card-text description">
+    {{getDescription(story)}}
+    </p>
+  </div>
+  <div class="card-footer">
+    <div class="row">
+      <div class="col-4">
+        <small class="text-muted">
+          <i class="fa fa-eye" aria-hidden="true"></i>
+          ({{story?.views}})
+        </small>
+      </div>
+      <div class="col-3">
+        <small class="text-muted">
+          <i class="fa fa-download" aria-hidden="true"></i>
+          ({{story?.downloads}})
+        </small>
+      </div>
+      <div class="col-4">
+        <a href="javascript:void(0)" class="btn btn-primary" (click)="viewStory(story)">Read More</a>
+      </div>
+    </div>
+  </div>
+</div>

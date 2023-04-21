@@ -1,0 +1,76 @@
+.light-grey, .hover-light-grey:hover, .light-gray, .hover-light-gray:hover {
+  color: #000 !important;
+  background-color: #f1f1f1 !important
+}
+.sub-header{
+  background: white !important;
+  padding: 30px;
+  height: 1000px;
+}
+
+.container, .panel {
+  padding: 0.01em 16px;
+}
+.footer-item{
+  position: absolute;
+  bottom: 30px;
+  width: 100%;
+}
+.panel {
+  margin-top: 16px;
+  margin-bottom: 16px
+}
+
+.btn, .button {
+  border: none;
+  display: inline-block;
+  padding: 8px 16px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  background-color: inherit;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.menu-item{
+  padding-left: 10px;
+}
+.item :hover{
+  color: white;
+  background-color: black;
+}
+.bar-active{
+  color: white !important;
+  background-color: black !important;
+}
+
+.item-active{
+  color: white !important;
+  background-color: black !important;
+}
+.bar-block .bar-item {
+  color: gray;
+  width: 100%;
+  display: block;
+  padding: 8px 16px;
+  text-align: left;
+  border: none;
+  white-space: normal;
+  float: none;
+  outline: 0;
+}
+
+.container, .panel {
+  padding: 0.01em 16px;
+}
+
+.sidebar {
+  height: 100%;
+  width: 200px;
+  background: black !important;
+  position: fixed !important;
+  z-index: 1;
+  overflow: auto
+}

@@ -1,0 +1,20 @@
+
+<div class="navbar">
+  <a (click)="onMenuClick()">
+    <i class="fa fa-bars"></i>
+  </a>
+  <img src="assets/images/logo.png" alt="logo" style="height: 40px;width: 100px">
+
+  <div class="dropdown">
+    <img src="assets/images/img_avatar.png" alt="Avatar" class="avatar">
+    <button class="dropbtn">John Wesley
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a [routerLink]="'/'">Users Profile</a>
+      <a [routerLink]="'/services'">Services</a>
+      <a [routerLink]="'/'">Logout</a>
+    </div>
+  </div>
+</div>
+<app-main-content></app-main-content>

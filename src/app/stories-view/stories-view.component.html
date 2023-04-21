@@ -1,0 +1,11 @@
+
+<div class="container">
+  <div style="display: flex; justify-content: right; padding-bottom: 10px">
+    <button class="btn btn-warning" (click)="onMenuItem('add-story')"><i class="fa fa-plus"></i> Add Story</button>
+  </div>
+  <div class="row">
+    <div class="col-4" style="padding-bottom: 20px" *ngFor="let story of stories">
+<app-story-card [story]="story"></app-story-card>
+    </div>
+  </div>
+</div>
