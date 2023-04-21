@@ -10,7 +10,8 @@ UI Technical Test Overview
 5) Display a simple filtered chart of views and downloads over time
 
 ## Note:
-Backend - Spring Boot Application has to run as another application to get data to this application and follow the instructions in the following git link to up and run local backend project
+Backend - Spring Boot Application has to run as another application to get data to this application and follow the instructions in the following git link to up and run local backend project.
+https://github.com/Hyndavic/stories-backend
 
 Run UI Project:
 after cloneing the project do the follwoing steps
