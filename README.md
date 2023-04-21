@@ -34,22 +34,30 @@ after cloneing the project do the follwoing steps
 ```sh
 List of Stories Which user created
 ```
+![ui-1](https://user-images.githubusercontent.com/131328078/233700405-d4ff8eae-058d-40e7-806d-dd3f8069734a.jpg)
+
 
 ```sh
 Screen to Add New Story
 ```
+![ui-5](https://user-images.githubusercontent.com/131328078/233700485-e8c8bcc3-d8cd-4412-bdd6-c901ce9311f4.jpg)
 
 ```sh
 Complete Story View which having Download and View Chart
 ```
+![ui-2](https://user-images.githubusercontent.com/131328078/233700579-df983fc9-f743-4828-9007-d714de502c4e.jpg)
 
 ```sh
 Downloaded PNG file view
 ```
+![ui-3](https://user-images.githubusercontent.com/131328078/233700670-8ccf3f48-9115-42a8-8b4a-bdb3f6bc0648.jpg)
+
 
 ```sh
 Chart View for Views and Downloads
 ```
+![ui-4](https://user-images.githubusercontent.com/131328078/233700692-51a57b79-9f93-4e69-b0ee-59c8913f974e.jpg)
+
 
 # StoryBlogClient
 
